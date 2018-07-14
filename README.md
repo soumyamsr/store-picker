@@ -1,2 +1,3 @@
 # store-picker
-* Fish Store
+
+React App for Fish Store

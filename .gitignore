@@ -26,7 +26,6 @@ _site
 .vscode
 nbproject
 Thumbs.db
-src/firebase-config.json
 src/config/
 src/config/**
 

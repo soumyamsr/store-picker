@@ -13,7 +13,13 @@ class Inventory extends React.Component {
   };
 
   static propTypes = {
-    fishes: PropTypes.object,
+    fishes: PropTypes.shape({
+      name: PropTypes.string,
+      price: PropTypes.number,
+      status: PropTypes.string,
+      desc: PropTypes.string,
+      image: PropTypes.string
+    }),
     updateFish: PropTypes.func,
     deleteFish: PropTypes.func,
     loadSampleFishes: PropTypes.func

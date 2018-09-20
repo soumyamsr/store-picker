@@ -26,6 +26,9 @@ _site
 .vscode
 nbproject
 Thumbs.db
+src/firebase-config.json
+src/config/
+src/config/**
 
 # Folders or files to ignore
 node_modules
